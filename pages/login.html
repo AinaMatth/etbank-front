@@ -3,56 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://ainamatth.github.io/etbank-front/css/styles.css">
+    <link rel="stylesheet" href="/css/login-styles.css">
     <title>Connexion</title>
 </head>
 <body>
-    <div id="nav-bar">
-        <div id="icon">
-            <a href="https://ainamatth.github.io/etbank-front/" target="_self">
-                <img src="Icons/nav-icon.svg" alt="ETBANK icon" id="icon-pic">
-                <h1>ETBANK</h1>
-            </a>
-        </div>
-        <nav>
-            <ul id="nav-links">
-                <li>
-                    <a href="#Home">Accueil</a>
-                </li>
-                <li>
-                    <a href="#Services">Services</a>
-                </li>
-                <li>
-                    <a href="#FAQ">FAQ</a>
-                </li>
-                <li>
-                    <a href="#About">À propos</a>
-                </li>
-            </ul>
-        </nav>
-        <div>
-            <ul id="login">
-                <li id="connect">
-                    <a href="pages/login.html" target="_blank" rel="noopener noreferrer">Connexion</a>
-                </li>
-                <li id="create">
-                    <a href="pages/sign-up.html" target="_blank" rel="noopener noreferrer">Créer un compte</a>
-                </li>
-            </ul>
-        </div>
-    </div>
     <main>
-
+        <div class="log-box">
+            <div id="logo">
+                <img src="/Icons/nav-icon.svg" alt="ETBANNK Logo">
+                <p>ETBANK</p>
+            </div>
+            <p>Connectez vous !</p>
+            <form action="" method="post">
+                <label for="">
+                    <input type="text" placeholder="Nom d'utilisateur" required>
+                </label>
+                <label for="">
+                    <input type="password" minlength="8" maxlength="32" placeholder="Mot de passe" required>
+                </label>
+                <button> Connexion </button>
+                <p class="message">Pas de compte? <a href="/pages/sign-up.html" target="_blank" rel="noopener noreferrer">Créer un compte</a></p>
+            </form>
+        </div>
     </main>
     <footer>
         <div class="footer">
             <div class="row">
                 <ul>
                     <li>
-                        <a href="#">Nous Contacter</a>
+                        <a href="#">Nos Contactes</a>
                     </li>
                     <li>
-                        <a href="#">Nos Services</a>
+                        <a href="/index.html">Nos Services</a>
                     </li>
                     <li>
                         <a href="#">Privacy Policy</a>
