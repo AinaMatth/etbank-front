@@ -12,8 +12,8 @@ Website made with HTML and CSS for now.
 
 ## Progress
 
-![ETBANK Webpage](/etbank-front/Images/index.png "ETBANK Webpage")
+![ETBANK Webpage](/Images/index.png "ETBANK Webpage")
 
-![ETBANK Login](/etbank-front/Images/login.png "ETBANK Login Page")
+![ETBANK Login](/Images/login.png "ETBANK Login Page")
 
-![ETABANK Sign-up](/etbank-front/Images/sign-up.png "ETBANK Sign-up")
+![ETBANK Sign-up](/Images/sign-up.png "ETBANK Sign-up")
