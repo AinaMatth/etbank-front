@@ -83,3 +83,32 @@ a{
     text-decoration: none;
     color: #e5e4e3;
 }
+
+/*Media queries*/
+
+@media screen and (min-width: 300px) and (max-width: 500px) {
+
+    body{
+        max-width: 20em;
+        margin: auto;
+    }
+
+    main{
+        margin: 5em auto;
+        padding: 1em;
+        width: 16em;
+        height: 25em;
+        max-height: 100%;
+    }
+    .log-box{
+        margin: auto;
+        width: 15em;
+    }
+    div#logo{
+        max-width: 2em;
+        display: flex;
+        justify-content: center;
+        margin: auto;
+    }
+    
+}

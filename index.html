@@ -44,7 +44,7 @@
         </div>
         <a href="javascript:void(0);"
         id="menu" target="_blank" onclick="myFunction()">
-            <img src="/etbank-front/Icons/menu.svg" alt="Hamburger menu">
+            <img src="Icons/menu.svg" alt="Hamburger menu">
         </a>
     </div>
     <main>
@@ -125,5 +125,13 @@
             </div>
         </div>
     </footer>
+    <script>
+        function myFunction(){
+            var x = document.getElementById("nav-links");
+            if (x.style.display === "none"){
+                x.style.display = "block";
+            }
+    }
+    </script>
 </body>
 </html>
